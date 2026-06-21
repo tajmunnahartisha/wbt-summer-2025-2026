@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Class-02</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="post"> <!--where to submit-->
+        <fieldset> <!--area create-->
+            <legend>My Information</legend>
+
+            <label for="fname">First Name : </label>
+            <input type="text" name="fname" required>
+            <br> <br>
+            <label for="lname">Last Name : </label>
+            <input type="text" name="lname" required>
+            <br><br>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="phone">Phone No : </label>
+            <input type="tel" name="phone" id="phone" required>
+            <br><br>
+
+            <label for="dob">Date Of Birth : </label>
+            <input type="date" name="dob" id="dob" required>
+            <br><br>
+
+
+            <label for="address">Address :</label><br>
+            <textarea name="address" id="address" row="4" cols="30"></textarea>
+            <br><br>
+  
+                        <label for="photo">Upload Student Photo :</label><br>
+                        <input type="file" id="photo" name="photo"><br><br>
+
+
+ <label for="gender">Gender :</label><br>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <br><br>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+
+
+            <label for="department">Department</label>
+            <select id="department" name="department"><br>
+                <option value="CSE" selected>CSE</option>
+                <option value="CSE" selected>EEE</option>
+                <option value="CSE" selected>BBA</option>
+                <option value="CSE" selected>English</option>
+                <option value="CSE" selected>Civil Engineering</option>
+            </select><br><br>
+
+            <input type="checkbox" id="c" name="language" value="c">C
+            <label for="c"></label><br>
+
+            <input type="checkbox" id="c++" name="language" value="c++">Python
+            <label for="c++"></label><br>
+            
+            <input type="checkbox" id="c++" name="language" value="C++">C++
+            <label for="c++"></label><br><br>
+
+
+            <input type="checkbox" name="remember" id="remember" value="remember">
+            <label for="remember">Remember Me</label>
+            <br><br>
+
+            <input type="submit" value="Login">
+
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
