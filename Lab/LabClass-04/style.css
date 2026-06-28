@@ -1,0 +1,96 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+ui,h1{
+    display: inline ;
+}
+.container{
+    background-color:indianred;
+    padding: 20px;
+}
+.title{
+    display:inline;
+    color:cadetblue;
+    
+
+}
+.navbar{
+    display: inline;
+    margin-left: 980px;
+    
+}
+.navbar a{
+    margin-left: 10px;
+    color:blueviolet;
+    text-decoration: none;
+    
+}
+#welcome{
+    background-color:darksalmon;
+    text-align: center;
+}
+#welcome h2{
+    text-align: center;
+    padding: 20px;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+#courses{
+    background-color: brown;
+    text-align: center;
+}
+.course-box{
+    text-align:center;
+}
+
+.card{
+    width:30%;
+    display:inline-block;
+    background-color: bisque;
+    padding:20px;
+    margin:10px;
+    border:2px solid gray;
+    border-radius: 10px;
+    position: relative;
+
+}
+.badge{
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    background-color: cadetblue;
+    color: antiquewhite;
+    border: 10px;
+    border-radius: 5px;
+
+}
+#campus{
+    text-align: center;
+    background-color:grey;
+    padding: 20px;
+    
+}
+#campus h2{
+    color: aliceblue;
+}
+
+#notice-board{
+    background-color:cadetblue;
+    padding: 20px;
+}
+footer{
+    background-color: darkslategray;
+    margin: 0 auto;
+    padding: 80px;
+    text-align: center;
+    
+}
