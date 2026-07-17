@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Club Membership Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>University Club Membership Registration</h2>
+
+        <form id="myForm">
+
+
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Enter your first name">
+            <small id="firstNameError" class="error"></small>
+
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Enter your last name">
+            <small id="lastNameError" class="error"></small>
+
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="example@gmail.com">
+            <small id="emailError" class="error"></small>
+
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <small id="passwordError" class="error"></small>
+
+
+            <label>Gender</label>
+
+            <div class="radio-group">
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+            </div>
+
+            <small id="genderError" class="error"></small>
+
+            <label>Interested Clubs</label>
+
+            <div class="checkbox-group">
+
+                <input type="checkbox" id="robotics" name="club" value="Robotics">
+                <label for="robotics">Robotics</label>
+
+                <input type="checkbox" id="debate" name="club" value="Debate">
+                <label for="debate">Debate</label>
+
+                <input type="checkbox" id="music" name="club" value="Music">
+                <label for="music">Music</label>
+
+                <input type="checkbox" id="sports" name="club" value="Sports">
+                <label for="sports">Sports</label>
+
+            </div>
+
+            <small id="clubError" class="error"></small> 
+
+            <label for="clubCategory">Club Category</label>
+
+            <select id="clubCategory">
+
+                <option value="">Select Club Category </option>
+                <option value="Technical">Technical</option>
+                <option value="Cultural">Cultural</option>
+                <option value="Sports">Sports</option>
+                <option value="Social Service">Social Service</option>
+
+            </select>
+
+            <small id="clubCategoryError" class="error"></small>
+
+            <label for="reason">Why do you want to join?</label>
+
+            <textarea id="reason" rows="4"
+                placeholder="Write at least 20 characters"></textarea>
+
+            <small id="reasonError" class="error"></small>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
